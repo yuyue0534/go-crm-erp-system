@@ -29,7 +29,7 @@ func SetupRouter() *gin.Engine {
 	// 健康检查
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "CRM+ERP System API",
+			"message": "yy0534, CRM+ERP System API",
 			"version": "1.0.0",
 		})
 	})
